@@ -106,36 +106,3 @@ print(recommendationTable_df.head())
 
 #The final recommendation table
 print(movies_df.loc[movies_df['movieId'].isin(recommendationTable_df.head(20).keys())])
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
